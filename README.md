@@ -47,7 +47,6 @@ The model was evaluated using a test dataset of **1,114 messages**, including **
 
 ### 📑 Classification Report
 
-```txt
               precision    recall  f1-score   support
 
            0       0.98      0.99      0.98       967
@@ -57,8 +56,6 @@ The model was evaluated using a test dataset of **1,114 messages**, including **
    macro avg       0.95      0.92      0.93      1114
 weighted avg       0.97      0.97      0.97      1114
 
-
-'''
 
 ### ✔ Random Forest for Spam Detection  
 
