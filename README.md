@@ -44,20 +44,15 @@ This project demonstrates how to build a spam detection model using **NLP techni
 ## 📈 Model Performance
 
 The model was evaluated using a test dataset of **1,114 messages**, including **Spam (1) and Ham (0)** categories.  
+### 📌 Key Insights
 
-### Classification Report
-
-              precision    recall  f1-score   support
-
-           0       0.98      0.99      0.98       967
-           1       0.91      0.86      0.88       147
-
-    accuracy                           0.97      1114
-   macro avg       0.95      0.92      0.93      1114
-weighted avg       0.97      0.97      0.97      1114
-
-
-
+| Metric                        | Value |
+| ----------------------------- | ----- |
+| **Overall Accuracy**          | ⭐ 97% |
+| **Spam Detection F1 Score**   | 0.88  |
+| **Ham Detection F1 Score**    | 0.98  |
+| **Weighted Average F1 Score** | 0.97  |
+| **Macro Average Recall**      | 0.92  |
 
 
 ### ✔ Random Forest for Spam Detection  
